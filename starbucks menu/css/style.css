@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Alatsi", sans-serif;
+}
+
+p {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+table {
+    text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 2rem;
+  padding-left: 2%;
+}
+
+.nav-item {
+  font-family: "Alatsi", sans-serif;
+  padding: 0 5px;
+}
+
+/* Yiyecekler */
+
+#yiyecekler {
+    background-color: #00704a;
+    color: #fff;
+}
+
+#yiyecekler .table {
+    color: #fff;
+}
+
+/* Kahve Ekipmanları */
+
+#ekipman {
+    background-color: #00704a;
+    color: #fff;
+}
+
+#ekipman .table {
+    color: #fff;
+}
+
+/* Media */
+
+@media (max-width: 1028px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
